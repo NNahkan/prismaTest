@@ -36,7 +36,8 @@ describe("p4", () => {
 			await getAllMoviesWithAverageScoreOverN(3),
 			sortBy((movie) => movie.id)
 		);
- 		expect(actual).toEqual(expected);
+		console.log("from testttt", expected)
+		expect(actual).toEqual(expected);
 	});
 
 	it("Should give me all the movies with an average score over 4", async () => {

@@ -18,7 +18,7 @@
 		"test-8": "vitest --run p8.",
 		"test-9": "vitest --run p9.",
 		"test-10": "vitest --run p10.",
-		"test-11": "vitest --run ep11.",
+		"test-11": "vitest --run p11.",
 		"seed": "ts-node seed.ts"
 	},
 	"keywords": [],
